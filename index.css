@@ -1,0 +1,229 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Lato';
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.navbar {
+    background-color: blue;
+    top: 0;
+    overflow: hidden;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar-ul li {
+    display: inline-block;
+    padding: 18px;
+}
+
+.navbar-ul {
+    display: flex;
+    align-items: center;
+}
+
+.nav-item {
+    color: white;
+    font-family: 'Lato';
+    font-weight: bold;
+}
+
+.searchbar {
+    display: flex;
+}
+
+
+#electronics {
+    color: white;
+    font-family: 'Lato';
+    font-weight: bold;
+    background-color: blue;
+    font-size: 16px;
+    border: white;
+}
+
+.nav-item-brand {
+    color: white;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-style: italic;
+}
+
+.landing-page {
+    background-image: url('shopping.jpg');
+    rotate: 180deg;
+    background-size: cover;
+    height: 92vh;
+    margin-top: 60px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+#contact,
+#about {
+    background-color: #190029;
+    transition-timing-function: ease-in;
+}
+
+h2 {
+    color: white;
+    padding-bottom: 20px;
+}
+
+p,
+form {
+    color: white;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    width: 50%;
+    padding: 50px;
+    overflow: hidden;
+}
+
+hr {
+    height: 250px;
+    margin-top: 50px;
+}
+
+
+.jk {
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+.info {
+    padding-left: 50px;
+}
+
+.ss {
+    display: inline-block;
+    padding-right: 20px;
+}
+
+.search {
+    width: 250px;
+}
+
+button {
+    background-color: transparent;
+    border: 0px;
+    filter: invert(1);
+    padding-left: 5px;
+}
+
+textarea {
+    width: 90%;
+}
+
+#email {
+    margin-left: 20px;
+    width: 30%;
+}
+
+.quick-mail {
+    padding-top: 20px;
+    align-content: space-between;
+}
+
+.mail-icon {
+    filter: invert(100%);
+}
+
+.qmail-link {
+    padding-left: 10px;
+}
+
+.quick-mail-icon {
+    padding-top: 21px;
+}
+
+a:hover {
+    color: black;
+}
+
+.quick-mail-container {
+    display: flex;
+    padding-top: 20px;
+}
+
+textarea {
+    background-color: #40294f;
+    border: 1px solid white;
+    margin-top: 15px;
+}
+
+input[type=email] {
+    background-color: #40294f;
+    border: 1px solid white;
+}
+
+.cart-img {
+    filter: invert(1);
+    display: flex;
+}
+
+.main-image {
+    rotate: 180deg;
+    margin-left: 38vw;
+    margin-bottom: -10vh;
+}
+
+#submit {
+    margin-left: 15vw;
+    background-color: #878787;
+    color: black;
+    font-family: 'Poppins';
+    font-size: large;
+    font-style: bold;
+    width: 100px;
+    height: 30px;
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
+}
+
+input[type=search] {
+    height: 30px;
+}
+
+.landing-page h1 {
+    animation-duration: 2s;
+    animation-name: slidein;
+    color: white;
+    margin-bottom: 10vh;
+    rotate: 180deg;
+    text-align: center;
+    width: 100%;
+    text-shadow: 5px 5px black;
+}
+
+@keyframes slidein {
+    from {
+        margin-left: 100vw;
+        width: 300%;
+    }
+
+    to {
+        text-align: center;
+        width: 100%;
+    }
+}

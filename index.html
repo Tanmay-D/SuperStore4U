@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <ul class="navbar-ul">
+            <li class="nav-item-brand"><a href="#home">SUPERSTORE4U</a></li>
+            <li class="nav-item">
+                <div class="searchbar">
+                    <input class="search" type="search" placeholder="search">
+                    <button class="search-button" type="submit">
+                        <a href="#home"><img src="magnifying-glass-solid.svg" height="20px" width="20px"></a>
+                    </button>
+                </div>
+            </li>
+            <li class="nav-item"><a href="#about">Why SuperStore4U?</a></li>
+            <li class="nav-item"><a href="#contact">Contact</a></li>'
+            <li class="nav-item-dropdown">
+                <select name="electronics" id="electronics">
+                    <option value="">Electronics</option>
+                    <br>
+                    <option value="laptops">Laptops</option>
+                    <br>
+                    <option value="mobiles">Mobiles</option>
+                    <br>
+                </select>
+            </li>
+            <li class="nav-item"><a href="#books">Books</a></li>
+            <li class="nav-item"><a href="#clothing">Clothing</a></li>
+            <li class="nav-item"><a href="#furniture">Furniture</a></li>
+            <li class="nav-item"><a href="#footwear">Footwear</a></li>
+            <li class="nav-item"><a href="signup.html">Sign Up</a></li>
+            <li class="nav-item"><a href="login.html">Login</a></li>
+            <li class="nav-item">
+                <p>
+                    <a href="#cart">
+                        <img class="cart-img" src="cart-shopping-solid.svg" height="20px" width="20px">
+                    </a>
+                </p>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="main-container">
+        <div class="landing-page" id="home">
+            <div>
+                <h1 class="main-heading">Welcome to SuperStore4U!</h1>
+            </div>
+            <div>
+                <img class="main-image" src="image1.png" height="400px" width="400px">
+            </div>
+        </div>
+        <div id="about">
+            <h2 class="jk">Why SuperStore4U?</h2>
+            <p class="info">
+                We are one of the best ecommerce companies in India with our
+                offices in Pune, Mumbai, Bangalore, Kolkata, Chennai and Delhi
+                providing collection and storage units in almost every state of India.
+            </p>
+            <p class="info">
+                Our Aim is to provide quality level products to all the people at a cheaper rate.
+                We want to be India's no.1 ecommerce company and reach at the grassroot level.
+            </p>
+        </div>
+    </div>
+
+    <div id="contact">
+        <div class="row">
+            <div class="column">
+
+                <form class="query-form" action="ecommerce.html" method="GET">
+                    <label for="email"><strong>Email</strong></label>
+                    <input type="email" id="email" name="email"><br><br><br>
+                    <label for="text"><strong>Your Issues</strong></label><br>
+                    <textarea id="query" name="query" rows="6"></textarea><br><br>
+                    <input type="submit" id="submit" value="Submit">
+                </form>
+            </div>
+            <hr>
+            <div class="column">
+                <div class="social-media">
+                    <h2 class="socialmedia">Follow Us</h2>
+                    <p class="ss">Instagram</p>
+                    <p class="ss">YouTube</p>
+                    <p class="ss">Twitter</p>
+                </div>
+                <div class="quick-mail-container">
+                    <h2 class="quick-mail">
+                        Send us a quick mail
+                    </h2>
+                    <p class="quick-mail-icon">
+                        <a href="index.html" class="qmail-link">
+                            <img class="mail-icon" src="envelope-solid.svg" width="28px" height="28px">
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    </div>
+</body>
+
+</html>

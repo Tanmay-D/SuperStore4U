@@ -1,0 +1,118 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: url('shopping.jpg');
+    background-size: cover;
+    font-family: 'Lato';
+}
+
+nav ul {
+    background-color: blue;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar {
+    background-color: blue;
+    top: 0;
+    overflow: hidden;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+}
+
+.navbar-ul li {
+    display: inline-block;
+    padding: 20px;
+}
+
+.nav-item {
+    color: white;
+    font-family: 'Lato';
+    font-weight: bold;
+}
+
+.nav-item-brand {
+    color: white;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-style: italic;
+}
+
+.navbar-ul {
+    display: flex;
+    align-items: center;
+}
+
+label {
+    width: 150px;
+    display: inline-block;
+}
+
+.register-form {
+    padding: 20px;
+}
+
+.container {
+    margin-left: 37vw;
+    margin-right: 30vw;
+    margin-top: 22vw;
+    border-radius: 20px;
+    background-color: #f44f4d;
+    width: 25vw;
+}
+
+.search {
+    width: 250px;
+}
+
+button {
+    background-color: transparent;
+    border: 0px;
+    filter: invert(1);
+    padding-left: 5px;
+}
+
+#submit {
+    width: 50%;
+    height: 30px;
+    margin-left: 6vw;
+    background-color: #541690;
+    color: white;
+    font-family: 'Poppins';
+    font-weight: bold;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+
+#electronics {
+    color: white;
+    font-family: 'Lato';
+    font-weight: bold;
+    background-color: blue;
+    font-size: 16px;
+    border: white;
+}
+
+input[type=search] {
+    height: 30px;
+}
+
+.searchbar {
+    display: flex;
+}
+
+.cart-img {
+    filter: invert(1);
+    display: flex;
+}
